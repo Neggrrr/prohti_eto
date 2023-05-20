@@ -86,7 +86,23 @@ color: #000000;
 	flex-direction: column;
     justify-content: flex-end;
  }
- .slide .btn
+ .btn
+ {
+	 width: 483px;
+	height: 64px;
+	background: #A5EBB0;
+	display: block;
+	margin-bottom: 100px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 70px;
+	color: #000000;
+ }
+  .slide .btn
  {
 	 width: 483px;
 	height: 64px;
@@ -103,3 +119,4 @@ color: #000000;
 	color: #000000;
  }
  
+
