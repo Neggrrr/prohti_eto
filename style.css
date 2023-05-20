@@ -1,0 +1,105 @@
+.main{
+	background-image:url('images/image 1.jpg');
+	width: 100%;
+	height: 100vh; 
+}
+.container{
+	width:100%;
+	max-width: 1300px;
+	margin: 0 auto;                        
+}
+.main__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+h1 {
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 112px;
+
+color: #FFFFFF;
+}
+ 
+ p{
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+color: #000000;
+ }
+ .first-banner{
+	 height:501px;
+	 width:100%;
+	 background-image:url('images/USA02.jpg');
+ }
+ .grid{
+	display: grid;
+  width: 100%;
+  grid-template-areas:
+    "a a b b c"
+    "a a b b c"
+    "a a b b c"
+    "d d b b g"
+    "d d e f g"
+    "d d e f g";
+  gap:15px;
+  grid-template-rows: repeat(6, 140px);
+  grid-template-columns: repeat(5, 1fr);
+ }
+ .grid img{
+	width: 100%;
+	height:100%;
+	object-fit:cover;
+	 
+ }
+ .slide
+ {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	color: white;
+ }
+ .usa
+ {
+	 background-image: url('images/USA01.jpg')
+ } 
+ .russia
+ {
+	 background-image: url('images/RUSSIA02.jpg')
+ } 
+ .uea
+ {
+	 background-image: url('images/UEA03.jpg')
+ }
+ .slide__inner
+ {
+	width: 50%; 
+	height:100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+ }
+ .slide .btn
+ {
+	 width: 483px;
+	height: 64px;
+	background: #A5EBB0;
+	display: block;
+	margin-bottom: 100px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 70px;
+	color: #000000;
+ }
+ 
